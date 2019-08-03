@@ -102,7 +102,7 @@ html, body {
 }
     
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen 
+@media screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 
@@ -112,8 +112,9 @@ and (max-device-width : 480px) {
 
 }
 
+
 /* iPads (landscape) ----------- */
-@media only screen 
+@media screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
@@ -123,7 +124,7 @@ and (orientation : landscape) {
 }
 
 /* iPads (portrait) ----------- */
-@media only screen
+@media screen
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
